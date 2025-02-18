@@ -74,7 +74,7 @@ namespace WpfApp1
 
         private void procenta(object sender, RoutedEventArgs e)
         {
-            ukazka = ukazka/100;
+            ukazka = pamet / 100 * ukazka;
             cislo.Content = ukazka.ToString();
         }
         private void CE(object sender, RoutedEventArgs e)
